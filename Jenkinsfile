@@ -7,11 +7,11 @@ pipeline {
 
     environment {
         // ---- Your Real Servers ----
-        TOMCAT_SERVER = "13.234.232.179"
+        TOMCAT_SERVER = "13.201.119.9"
         TOMCAT_USER   = "ubuntu"
         SSH_KEY_PATH  = "/var/lib/jenkins/.ssh/jenkins_key"
 
-        NEXUS_URL     = "15.206.159.151:8081"
+        NEXUS_URL     = "13.232.130.128:8081"
         NEXUS_REPO    = "maven-releases"
         NEXUS_CREDS   = "Nexus-credentials"
     }
